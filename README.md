@@ -35,11 +35,11 @@ $ todoo fetch
 >>> [ { id: 1,
     title: 'Hello',
     checked: false,
-    created_at: 1417279244824 },
+    created_at: '2014-11-30 00:40:44' },
   { id: 2,
     title: 'Hello1',
     checked: false,
-    created_at: 1417279253891 } ]
+    created_at: '2014-11-30 00:40:53' } ]
 $ todoo remove 2
 $ todoo checked 1
 $ todoo add "Go to bed"

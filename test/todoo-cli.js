@@ -35,7 +35,7 @@ describe('todoo-cli', function(){
         assert.equal(list[1].title, 'Todo-2')
 
         var date = new Date(list[1].created_at)
-        assert.ok(Date.now() - date.getTime() < 1000)
+        assert.ok(Date.now() - date.getTime() < 5000)
         done()
       })
     })

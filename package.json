@@ -1,6 +1,6 @@
 {
   "name": "todoo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mark your todo list",
   "repository": "git@github.com:fritx/todoo.git",
   "main": "lib/todo-store.js",

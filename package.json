@@ -1,0 +1,22 @@
+{
+  "name": "todoo",
+  "version": "0.0.1",
+  "description": "Mark your todo list",
+  "repository": "git@github.com:fritx/todoo.git",
+  "main": "lib/todo-store.js",
+  "bin": {
+    "todoo": "bin/todoo-cli.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "lowdb": "^0.5.1",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "mocha": "^2.0.1"
+  }
+}

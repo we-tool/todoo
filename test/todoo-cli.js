@@ -8,10 +8,14 @@ var output = require('../lib/output')
 describe('todoo-cli', function(){
 
   before(function(){
-    fs.renameSync(
-      path.resolve(__dirname, '../bin/db.json'),
-      path.resolve(__dirname, '../bin/db-copy.json')
-    )
+    if (fs.existsSync(
+      path.resolve(__dirname, '../bin/db.json')
+    )) {
+      fs.renameSync(
+        path.resolve(__dirname, '../bin/db.json'),
+        path.resolve(__dirname, '../bin/db-copy.json')
+      )
+    }
   })
 
   var cliFile = path.resolve(__dirname, '../bin/todoo-cli.js')
